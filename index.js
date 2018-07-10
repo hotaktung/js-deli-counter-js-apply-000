@@ -23,12 +23,13 @@ return ans
 //function currentLine
 function currentLine(line) {
 var ANS; var ll = line.length
-var i;
+var i; var ne = [];
 if (ll < 2)
   {ANS = "The line is currently empty."
 }
 else {
   for (i=0;i<ll;i++)
+  ne = 
 ANS += "The line is currently:" + i
 }
 return ANS
