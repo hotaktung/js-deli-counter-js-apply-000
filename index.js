@@ -29,8 +29,8 @@ if (ll < 2)
 }
 else {
   for (i=0;i<ll;i++)
-  ne = 
-ANS += "The line is currently:" + i
+  ne.push(` ${i+1}. ${cline [i]}`)
+ANS = "The" + ne
 }
 return ANS
 }
