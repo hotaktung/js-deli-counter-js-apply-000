@@ -29,7 +29,7 @@ if (ll < 2)
 }
 else {
   for (i=0;i<ll;i++)
-  ne.push(` ${i+1}. ${cline [i]}`)
+  ne.push(` ${i+1}. ${line [i]}`)
 ANS = "The" + ne
 }
 return ANS
