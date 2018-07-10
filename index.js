@@ -30,7 +30,7 @@ if (ll < 2)
 else {
   for (i=0;i<ll;i++)
   ne.push(` ${i+1}. ${line [i]}`)
-ANS = "The" + ne
+ANS = "The line is currently:" + ne
 }
 return ANS
 }
