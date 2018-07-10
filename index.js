@@ -21,8 +21,8 @@ return ans
 }
 
 //function currentLine
-function currentLine(cline) {
-var ANS; var ll = cline.length
+function currentLine(line) {
+var ANS; var ll = line.length
 var i;
 if (ll < 2)
   {ANS = "The line is currently empty."
